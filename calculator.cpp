@@ -3,18 +3,18 @@
 int main(){
 
 
-    int add(){
-
+    int add(int a, int b){
+        return a + b;
     }
-    int sub(){
-
+    int sub(int a, int b){
+        return a - b;
     }
 
-    int mul(){
-        
+    int mul(int a, int b){
+        return a * b;
     }
-    int divide(){
-
+    int divide(int a, int b){
+        return b == 0 ? -1 : a / b;
     }
 
     // Logical Operators
