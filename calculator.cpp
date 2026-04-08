@@ -36,3 +36,21 @@ int NOT(int a)
 {
     return !a;
 }
+
+int main() {
+    int a, b;
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+
+    cout << "Addition: " << add(a, b) << endl;
+    cout << "Subtraction: " << sub(a, b) << endl;
+    cout << "Multiplication: " << mul(a, b) << endl;
+    cout << "Division: " << divide(a, b) << endl;
+
+    cout << "Logical AND: " << AND(a, b) << endl;
+    cout << "Logical OR: " << OR(a, b) << endl;
+    cout << "Logical XOR: " << XOR(a, b) << endl;
+    cout << "Logical NOT of a: " << NOT(a) << endl;
+
+    return 0;
+}
