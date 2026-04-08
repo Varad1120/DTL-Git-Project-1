@@ -14,7 +14,7 @@ int main(){
         
     }
     int divide(){
-        
+
     }
 
     // Logical Operators
@@ -44,16 +44,16 @@ int main(){
 
     switch(op){
         case '+':
-            cout << num1 + num2;
+            cout << add(num1, num2);
             break;
         case '-':
-            cout << num1 - num2;
+            cout << sub(num1, num2);
             break;
         case '*':
-            cout << num1 * num2;
+            cout << mul(num1, num2);
             break;
         case '/':
-            cout << num1 / num2;
+            cout << divide(num1, num2);
             break;
         default:
             cout << "Invalid Operator";
